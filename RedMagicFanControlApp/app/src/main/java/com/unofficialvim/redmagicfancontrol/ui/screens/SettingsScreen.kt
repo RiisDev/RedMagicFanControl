@@ -1,4 +1,4 @@
-package com.unofficialvim.rmfcapp.ui.screens
+package com.unofficialvim.redmagicfancontrol.ui.screens
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.padding
@@ -28,9 +28,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.unofficialvim.rmfcapp.BuildConfig
-import com.unofficialvim.rmfcapp.R
-import com.unofficialvim.rmfcapp.net.DomainSocketClient
+import com.unofficialvim.redmagicfancontrol.BuildConfig
+import com.unofficialvim.redmagicfancontrol.R
+import com.unofficialvim.redmagicfancontrol.net.DomainSocketClient
 import kotlinx.coroutines.launch
 
 /**

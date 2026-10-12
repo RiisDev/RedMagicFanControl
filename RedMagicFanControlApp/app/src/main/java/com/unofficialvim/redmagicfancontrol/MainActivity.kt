@@ -1,4 +1,4 @@
-package com.unofficialvim.rmfcapp
+package com.unofficialvim.redmagicfancontrol
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -12,9 +12,9 @@ import androidx.compose.runtime.setValue
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.unofficialvim.rmfcapp.ui.screens.HomeScreen
-import com.unofficialvim.rmfcapp.ui.screens.SettingsScreen
-import com.unofficialvim.rmfcapp.ui.theme.RMFCTheme
+import com.unofficialvim.redmagicfancontrol.ui.screens.HomeScreen
+import com.unofficialvim.redmagicfancontrol.ui.screens.SettingsScreen
+import com.unofficialvim.redmagicfancontrol.ui.theme.RMFCTheme
 
 private object Routes {
     const val HOME = "home"
@@ -31,6 +31,8 @@ class MainActivity : ComponentActivity() {
             var dynamicColor by remember { mutableStateOf(true) }
             // null = follow the system light/dark setting.
             var darkThemeOverride by remember { mutableStateOf<Boolean?>(null) }
+
+
 
             RMFCTheme(
                 darkTheme = darkThemeOverride ?: isSystemInDarkTheme(),

@@ -1,4 +1,4 @@
-package com.unofficialvim.rmfcapp.ui.screens
+package com.unofficialvim.redmagicfancontrol.ui.screens
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.fillMaxSize
@@ -28,8 +28,8 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
-import com.unofficialvim.rmfcapp.R
-import com.unofficialvim.rmfcapp.data.DeviceReadings
+import com.unofficialvim.redmagicfancontrol.R
+import com.unofficialvim.redmagicfancontrol.data.DeviceReadings
 
 private data class Reading(
     val label: String,

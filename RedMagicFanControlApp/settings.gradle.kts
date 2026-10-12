@@ -17,5 +17,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "DeviceMonitor"
+rootProject.name = "RedMagicFanControl"
 include(":app")

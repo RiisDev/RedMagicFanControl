@@ -1,4 +1,4 @@
-package com.unofficialvim.rmfcapp.ui.theme
+package com.unofficialvim.redmagicfancontrol.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

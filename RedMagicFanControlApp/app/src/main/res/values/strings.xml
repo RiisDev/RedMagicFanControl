@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Device Monitor</string>
+    <string name="app_name">RedMagic Fan Control</string>
 
-    <string name="home_title">Device Monitor</string>
+    <string name="home_title">RedMagic Fan Control</string>
     <string name="settings_title">Settings</string>
     <string name="settings_cd">Settings</string>
     <string name="back_cd">Back</string>

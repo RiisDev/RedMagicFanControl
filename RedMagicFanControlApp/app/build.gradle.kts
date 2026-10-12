@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.unofficialvim.rmfcapp"
+    namespace = "com.unofficialvim.redmagicfancontrol"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.devicemonitor"
+        applicationId = "com.unofficialvim.redmagicfancontrol"
         minSdk = 31
         targetSdk = 35
         versionCode = 1

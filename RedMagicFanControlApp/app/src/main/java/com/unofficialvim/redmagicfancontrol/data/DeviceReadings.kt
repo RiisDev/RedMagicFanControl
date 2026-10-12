@@ -1,4 +1,4 @@
-package com.unofficialvim.rmfcapp.data
+package com.unofficialvim.redmagicfancontrol.data
 
 import android.app.ActivityManager
 import android.content.Context

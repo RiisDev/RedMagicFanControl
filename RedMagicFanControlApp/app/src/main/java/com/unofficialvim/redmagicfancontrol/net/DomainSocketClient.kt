@@ -1,4 +1,4 @@
-package com.unofficialvim.rmfcapp.net
+package com.unofficialvim.redmagicfancontrol.net
 
 import android.content.Context
 import android.net.LocalSocket
